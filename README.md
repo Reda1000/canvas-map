@@ -9,25 +9,18 @@ HTML5 Canvas
 ## Usage
 Render a map in your Browser:
 
-        <script src="../canvasmap.bundle.js"></script>
-        <script>
-            console.log(document.getElementById('canvas'), document.getElementById('canvas').addEventListener, canvasmap);
-
-            var config = undefined; // use internal standard config
-            var map = {}
-            var test = new canvasmap.IsoMap({
-                window: {
-                    nativeElement: window
-                },
-                parent: {
-                    nativeElement: document.getElementById('parent')
-                },
-                cnvs: {
-                    nativeElement: document.getElementById('canvas')
-                }
-            }, config, );
-            test.setSelectedCB((a) => console.log(a));
-        </script>
+``<script src="https://github.com/Reda1000/canvas-map/blob/master/canvasmap.bundle.js"></script>
+``<script src="https://github.com/Reda1000/canvas-map/blob/master/example.map.js"></script>
+``<script>
+``    var config = undefined; // use internal standard config
+``    var map = {}
+``    var test = new canvasmap.IsoMap({
+``        window: { nativeElement: window },
+``        parent: { nativeElement: document.getElementById('parent') },
+``        cnvs: { nativeElement: document.getElementById('canvas') }
+``    }, config, );
+``    test.setSelectedCB((a) => console.log(a));
+``</script>
 
 ## Documentation
 <!-- 
