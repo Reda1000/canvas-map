@@ -1,0 +1,61 @@
+<html style="margin: 0; padding: 0; width: 100%; height: 100%;">
+    <head>
+    </head>
+    <body style="margin: 0; padding: 0; width: 100%; height: 100%;">
+        <div id="parent" style="width: 100%; height: 100%;">
+            <canvas id="canvas" style="width: 100%; height: 100%;"></canvas>
+        </div>
+        <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/example.map.js"></script>
+        <script>
+            config = { 
+                quality: 1,
+                zoomStepTap: 0.5,
+                zoomStepScrollDebouncer: 100,
+                maxZoom: 6,
+                maxSize: 16000,
+                maxOffset: 300,
+                topOffset: 0,
+                topOffsetCenterCalcModification: true,
+                refresh: 'automatic',
+                style: {
+                    map: {
+                        backgroundColor: 'white',
+                        backgroundImage: 'tiles/floor.svg',
+                        borderColor: 'grey',
+                        borderWidth: 10
+                    },
+                    tile: {
+                        backgroundColor: 'transparent',
+                        borderColor: 'grey',
+                        borderWidth: 1,
+                        fontSize: 0.16739,
+                        fontFamily: 'Arial',
+                        fontColor: 'black',
+                        textAlign: 'center'
+                    },
+                    selectedTile: {
+                        backgroundColor: 'transparent',
+                        borderColor: 'transparent',
+                        borderWidth: 2,
+                        fontSize: 0.26739,
+                        fontFamily: 'Arial',
+                        fontColor: 'black',
+                        textAlign: 'center'
+                    }
+                }
+            }; // use internal standard config
+            map = {
+                "size": [1318, 775],
+                "tiles": []
+            }
+            mapInstance = new canvasmap.CartMap({
+                window: { nativeElement: window },
+                parent: { nativeElement: document.getElementById('parent') },
+                cnvs: { nativeElement: document.getElementById('canvas') }
+            }, config, map);
+            mapInstance.setSelectedCB((a) => console.log(a));
+            mapInstance.setDroppedCB((a, b) => console.log(a, b.dataTransfer.getData("text")));
+        </script>
+    </body>
+</html>
