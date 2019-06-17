@@ -82,7 +82,6 @@ npm install canvas-map
 
 ## Tests
 Not yet available
-License
 
 ## Contribution
 Very thankful for the assets that are being used in the examples from https://github.com/BulloRosso/isoplant
