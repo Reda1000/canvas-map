@@ -25,8 +25,8 @@ Render a map in your Browser in simple JS:
 Hint: In case you are interesting in an Angular2+ Typescript Port please have a look at ngx-canvas-map in NPM - planning on porting to ReactJS as well.
 
 ## Demo
-Panning !(https://github.com/Reda1000/canvas-map/raw/master/localhost_8080_test-iso_index.html%20-%20Google%20Chrome%2017.06.2019%2022_17_22.mp4)
-Zooming !(https://github.com/Reda1000/canvas-map/raw/master/localhost_8080_test-iso_index.html%20-%20Google%20Chrome%2017.06.2019%2022_17_00.mp4)
+- Panning https://github.com/Reda1000/canvas-map/raw/master/localhost_8080_test-iso_index.html%20-%20Google%20Chrome%2017.06.2019%2022_17_22.mp4
+- Zooming https://github.com/Reda1000/canvas-map/raw/master/localhost_8080_test-iso_index.html%20-%20Google%20Chrome%2017.06.2019%2022_17_00.mp4
 
 ## Documentation
 <!-- 
