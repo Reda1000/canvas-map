@@ -24,6 +24,9 @@ Render a map in your Browser in simple JS:
 
 Hint: In case you are interesting in an Angular2+ Typescript Port please have a look at ngx-canvas-map in NPM - planning on porting to ReactJS as well.
 
+## Examples
+
+
 ## Documentation
 <!-- 
 @startuml
