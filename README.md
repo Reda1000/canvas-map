@@ -27,7 +27,7 @@ https://reda1000.github.io/canvas-map/demo.html
             mapInstance.setSelectedCB((a) => console.log(a));
         </script>
 
-Hint: In case you are interesting in an Angular2+ Typescript Port please have a look at ngx-canvas-map in NPM - planning on porting to ReactJS as well.
+Hint: In case you are interested in an Angular2+ Typescript Port please have a look at ngx-canvas-map in NPM - planning on porting to ReactJS as well.
 
 ## Documentation
 <!-- 
