@@ -9,7 +9,7 @@ HTML5 Canvas
 ## Usage
 Render a map in your Browser in simple JS:
 
-    <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.js"></script>
+    <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.min.js"></script>
     <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/example.map.js"></script>
     <script>
         config = undefined; // use internal standard config
@@ -79,5 +79,7 @@ npm install canvas-map
 Not yet available
 License
 
+## Contribution
+Very thankful for the assets that are being used in the examples from https://github.com/BulloRosso/isoplant
 
 MIT, see LICENSE.txt
