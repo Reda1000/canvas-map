@@ -13,6 +13,7 @@ https://reda1000.github.io/canvas-map/demo.html
 1. Download the assets and put them under your HTTP-Server reachable as [origin]/assets - thats where the tile images are currently being fetched from.
 2. Render a map in your Browser in simple JS:
 
+
     <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.min.js"></script>
     <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/example.map.js"></script>
     <script>
