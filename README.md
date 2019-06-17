@@ -377,6 +377,6 @@ SOUTH
 
 @enduml
 -->
-![alt text](https://github.com/Reda1000/canvas-map/edit/master/diagram.png)
+![alt text](https://github.com/Reda1000/canvas-map/blob/master/diagram.png)
 
 MIT, see LICENSE.txt
