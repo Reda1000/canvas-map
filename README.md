@@ -14,18 +14,18 @@ https://reda1000.github.io/canvas-map/demo.html
 2. Render a map in your Browser in simple JS:
 
 
-    <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/example.map.js"></script>
-    <script>
-        config = undefined; // use internal standard config
-        map = defaultMap
-        mapInstance = new canvasmap.IsoMap({
-            window: { nativeElement: window },
-            parent: { nativeElement: document.getElementById('parent') },
-            cnvs: { nativeElement: document.getElementById('canvas') }
-        }, config, map);
-        mapInstance.setSelectedCB((a) => console.log(a));
-    </script>
+        <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/example.map.js"></script>
+        <script>
+            config = undefined; // use internal standard config
+            map = defaultMap
+            mapInstance = new canvasmap.IsoMap({
+                window: { nativeElement: window },
+                parent: { nativeElement: document.getElementById('parent') },
+                cnvs: { nativeElement: document.getElementById('canvas') }
+            }, config, map);
+            mapInstance.setSelectedCB((a) => console.log(a));
+        </script>
 
 Hint: In case you are interesting in an Angular2+ Typescript Port please have a look at ngx-canvas-map in NPM - planning on porting to ReactJS as well.
 
