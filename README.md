@@ -331,4 +331,51 @@ npm install canvas-map
 Not yet available
 License
 
+## Documentation
+<!-- 
+@startuml
+
+interface CoordResolverInterface
+abstract class CoordResolver
+class CartCoordResolver
+class IsoCoordResolver
+
+CoordResolverInterface <|-- CoordResolver
+CoordResolver <|-- CartCoordResolver
+CoordResolver <|-- IsoCoordResolver
+
+interface CanvasConfig
+class Config
+
+CanvasConfig <|-- Config : default of <
+
+interface CanvasSettings
+
+interface CanvasLayer
+
+class CanvasRenderer
+class Controller
+Controller -left- CanvasRenderer : controls >
+CanvasRenderer -left- CoordResolver : renders via >
+Controller .. CanvasSettings : Memory
+Controller .. CanvasLayer : LayerSetup
+Controller .. CanvasConfig : Configuration
+
+interface MapConfig
+interface Map<T>
+interface Tile<T>
+MapConfig <|-right- Map
+Map -right- Tile : contains n >
+Map -- Controller
+
+enum ORRIENTATION {
+WEST,
+NORTH,
+EAST,
+SOUTH
+}
+
+@enduml
+-->
+
 MIT, see LICENSE.txt
