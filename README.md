@@ -6,8 +6,12 @@ __Currently under development / testing / documentation. and therefore not fully
 ## Depends
 HTML5 Canvas
 
+## Demo
+https://reda1000.github.io/canvas-map/demo.html
+
 ## Usage
-Render a map in your Browser in simple JS:
+1. Download the assets and put them under your HTTP-Server reachable as [origin]/assets - thats where the tile images are currently being fetched from.
+2. Render a map in your Browser in simple JS:
 
     <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/canvasmap.bundle.min.js"></script>
     <script src="http://cdn.jsdelivr.net/gh/Reda1000/canvas-map/example.map.js"></script>
@@ -23,9 +27,6 @@ Render a map in your Browser in simple JS:
     </script>
 
 Hint: In case you are interesting in an Angular2+ Typescript Port please have a look at ngx-canvas-map in NPM - planning on porting to ReactJS as well.
-
-## Demo
-https://reda1000.github.io/canvas-map/demo.html
 
 ## Documentation
 <!-- 
